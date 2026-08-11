@@ -6,6 +6,7 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { CartDrawer } from "@/components/cart/CartDrawer";
 import { EmailPopup } from "@/components/marketing/EmailPopup";
+import { ScrollProgress } from "@/components/ui/ScrollProgress";
 
 const fraunces = Fraunces({
   subsets: ["latin"],
@@ -63,6 +64,7 @@ export default function RootLayout({
           <a href="#main" className="skip-link">
             Skip to content
           </a>
+          <ScrollProgress />
           <Navbar />
           <main id="main">{children}</main>
           <Footer />
