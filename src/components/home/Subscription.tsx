@@ -46,7 +46,7 @@ export function Subscription() {
                 <li key={perk} className="flex items-start gap-3 text-charcoal">
                   <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-sage/15">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden>
-                      <path d="M5 12.5l4 4L19 7" stroke="#4C6B5B" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M5 12.5l4 4L19 7" stroke="#4F8A6E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                   </span>
                   <span>{perk}</span>

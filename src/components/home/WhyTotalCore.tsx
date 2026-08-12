@@ -70,7 +70,7 @@ function FlipCard({ card }: { card: (typeof cards)[number] }) {
     >
       <div
         className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100"
-        style={{ background: "radial-gradient(120% 100% at 0% 0%, rgba(198,116,59,0.08), transparent 60%)" }}
+        style={{ background: "radial-gradient(120% 100% at 0% 0%, rgba(28,107,91,0.09), transparent 60%)" }}
         aria-hidden
       />
       <span

@@ -158,13 +158,13 @@ export function Navbar() {
 function Logo() {
   return (
     <svg width="38" height="38" viewBox="0 0 40 40" aria-hidden className="shrink-0">
-      <circle cx="20" cy="20" r="19" fill="#16161A" />
-      <circle cx="20" cy="20" r="12" fill="none" stroke="#C6743B" strokeWidth="2" />
-      <circle cx="20" cy="20" r="5" fill="#C6743B" />
+      <circle cx="20" cy="20" r="19" fill="#0E2823" />
+      <circle cx="20" cy="20" r="12" fill="none" stroke="#2F8D77" strokeWidth="2" />
+      <circle cx="20" cy="20" r="5" fill="#BE9A3A" />
       <path
         d="M20 3 A17 17 0 0 1 37 20"
         fill="none"
-        stroke="#B99A5B"
+        stroke="#BE9A3A"
         strokeWidth="2"
         strokeLinecap="round"
       />

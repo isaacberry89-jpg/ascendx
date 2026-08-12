@@ -15,7 +15,7 @@ export function EmailCapture() {
           className="relative overflow-hidden rounded-[2rem] px-6 py-16 text-center sm:px-12 lg:py-20"
           style={{
             background:
-              "radial-gradient(90% 120% at 50% 0%, rgba(198,116,59,0.25), transparent 60%), linear-gradient(160deg, #1F1F24, #16161A)",
+              "radial-gradient(90% 120% at 50% 0%, rgba(190,154,58,0.22), transparent 60%), radial-gradient(70% 90% at 15% 100%, rgba(47,141,119,0.20), transparent 60%), linear-gradient(160deg, #143A31, #0E2823)",
           }}
         >
           <div className="grain pointer-events-none absolute inset-0" aria-hidden />

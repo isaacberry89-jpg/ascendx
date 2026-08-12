@@ -10,12 +10,12 @@ import {
 } from "framer-motion";
 
 const pillars = [
-  { word: "Nutrition", copy: "Whole-body nourishment that fits real, everyday life.", color: "#C6743B" },
-  { word: "Performance", copy: "Clean energy and support for the way you move.", color: "#B99A5B" },
-  { word: "Recovery", copy: "The rest and repair where real progress is made.", color: "#6A7B8C" },
-  { word: "Metabolism", copy: "Balanced support for a healthy, capable body.", color: "#4C6B5B" },
-  { word: "Longevity", copy: "Strength and vitality that carry you through the decades.", color: "#9E5324" },
-  { word: "Wellness", copy: "Feeling good, consistently — not just occasionally.", color: "#7E6B8F" },
+  { word: "Nutrition", copy: "Whole-body nourishment that fits real, everyday life.", color: "#CBA255" },
+  { word: "Performance", copy: "Clean energy and support for the way you move.", color: "#D08A4C" },
+  { word: "Recovery", copy: "The rest and repair where real progress is made.", color: "#5FA8AC" },
+  { word: "Metabolism", copy: "Balanced support for a healthy, capable body.", color: "#4E9481" },
+  { word: "Longevity", copy: "Strength and vitality that carry you through the decades.", color: "#C08A66" },
+  { word: "Wellness", copy: "Feeling good, consistently — not just occasionally.", color: "#9784B3" },
 ];
 
 export function BrandStory() {
@@ -171,12 +171,12 @@ function BackgroundHue({ progress }: { progress: MotionValue<number> }) {
     progress,
     [0, 0.2, 0.4, 0.6, 0.8, 1],
     [
-      "radial-gradient(60% 60% at 50% 50%, rgba(198,116,59,0.18), transparent 70%)",
-      "radial-gradient(60% 60% at 50% 50%, rgba(185,154,91,0.18), transparent 70%)",
-      "radial-gradient(60% 60% at 50% 50%, rgba(106,123,140,0.18), transparent 70%)",
-      "radial-gradient(60% 60% at 50% 50%, rgba(76,107,91,0.18), transparent 70%)",
-      "radial-gradient(60% 60% at 50% 50%, rgba(158,83,36,0.18), transparent 70%)",
-      "radial-gradient(60% 60% at 50% 50%, rgba(126,107,143,0.18), transparent 70%)",
+      "radial-gradient(60% 60% at 50% 50%, rgba(190,154,58,0.18), transparent 70%)",
+      "radial-gradient(60% 60% at 50% 50%, rgba(192,106,44,0.18), transparent 70%)",
+      "radial-gradient(60% 60% at 50% 50%, rgba(43,110,116,0.20), transparent 70%)",
+      "radial-gradient(60% 60% at 50% 50%, rgba(31,107,87,0.20), transparent 70%)",
+      "radial-gradient(60% 60% at 50% 50%, rgba(176,122,85,0.18), transparent 70%)",
+      "radial-gradient(60% 60% at 50% 50%, rgba(94,74,120,0.18), transparent 70%)",
     ]
   );
   return <motion.div style={{ background }} className="absolute inset-0" aria-hidden />;

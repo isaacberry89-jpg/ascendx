@@ -22,7 +22,7 @@ export function TrustBar() {
               <span className="whitespace-nowrap font-display text-lg font-medium tracking-tight text-ivory/90">
                 {phrase}
               </span>
-              <span className="text-ember" aria-hidden>
+              <span className="text-brass" aria-hidden>
                 ✦
               </span>
             </div>

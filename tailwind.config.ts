@@ -8,39 +8,40 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Warm ivory / off-white base
+        // Warm parchment / ivory base — approachable exotic warmth
         ivory: {
-          DEFAULT: "#F7F4EE",
-          50: "#FCFBF7",
-          100: "#F7F4EE",
-          200: "#EFEAE0",
-          300: "#E4DCCC",
+          DEFAULT: "#F5F1E8",
+          50: "#FBFAF4",
+          100: "#F5F1E8",
+          200: "#ECE5D6",
+          300: "#DCD3BE",
         },
-        // Deep charcoal / near-black
+        // Deep emerald ink — botanical + clinical authority (used for dark
+        // sections and body text)
         charcoal: {
-          DEFAULT: "#16161A",
-          800: "#1F1F24",
-          700: "#2A2A30",
-          600: "#3A3A42",
+          DEFAULT: "#0E2823",
+          800: "#143A31",
+          700: "#1E4A3E",
+          600: "#2E5F4F",
         },
-        // Muted warm gray
+        // Muted green-taupe for secondary text (darkened for readability)
         stone: {
-          DEFAULT: "#8A867C",
-          light: "#B7B2A6",
+          DEFAULT: "#6C6F63",
+          light: "#A6A497",
         },
-        // Premium energetic accent — muted amber/bronze
+        // Signature accent — deep clinical teal-emerald (authority + jewel)
         ember: {
-          DEFAULT: "#C6743B",
-          light: "#E0975C",
-          dark: "#9E5324",
+          DEFAULT: "#1C6B5B",
+          light: "#2F8D77",
+          dark: "#124E42",
         },
-        // Secondary calm accent — deep sage / eucalyptus
+        // Natural / success accent — jade eucalyptus
         sage: {
-          DEFAULT: "#4C6B5B",
-          light: "#7D9C89",
+          DEFAULT: "#4F8A6E",
+          light: "#8FBCA4",
         },
-        // Metallic accent
-        brass: "#B99A5B",
+        // Exotic metallic — antique gold
+        brass: "#BE9A3A",
       },
       fontFamily: {
         display: ["var(--font-display)", "Georgia", "serif"],

@@ -16,7 +16,7 @@ export function SectionDivider() {
         transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
       />
       <motion.span
-        className="text-ember"
+        className="text-brass"
         initial={{ opacity: 0, rotate: -90, scale: 0.5 }}
         whileInView={{ opacity: 1, rotate: 0, scale: 1 }}
         viewport={{ once: true }}

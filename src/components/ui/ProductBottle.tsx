@@ -33,11 +33,11 @@ export function ProductBottle({
         <linearGradient id={`body-${uid}`} x1="0" y1="0" x2="1" y2="1">
           <stop offset="0%" stopColor={accent} />
           <stop offset="55%" stopColor={accentDeep} />
-          <stop offset="100%" stopColor="#141417" />
+          <stop offset="100%" stopColor="#0C1F1B" />
         </linearGradient>
         <linearGradient id={`lid-${uid}`} x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stopColor="#2A2A30" />
-          <stop offset="100%" stopColor="#16161A" />
+          <stop offset="0%" stopColor="#1E4A3E" />
+          <stop offset="100%" stopColor="#0E2823" />
         </linearGradient>
         <linearGradient id={`shine-${uid}`} x1="0" y1="0" x2="1" y2="0">
           <stop offset="0%" stopColor="#ffffff" stopOpacity="0" />
@@ -79,7 +79,7 @@ export function ProductBottle({
             width="96"
             height="104"
             rx="10"
-            fill="#F7F4EE"
+            fill="#F5F1E8"
             opacity="0.96"
           />
           <rect x="72" y="120" width="96" height="26" rx="10" fill={accentDeep} />
@@ -91,7 +91,7 @@ export function ProductBottle({
             fontSize="9"
             fontWeight="700"
             letterSpacing="1.5"
-            fill="#F7F4EE"
+            fill="#F5F1E8"
             fontFamily="system-ui, sans-serif"
           >
             TOTAL CORE
@@ -102,7 +102,7 @@ export function ProductBottle({
             textAnchor="middle"
             fontSize="13"
             fontWeight="800"
-            fill="#16161A"
+            fill="#0E2823"
             fontFamily="Georgia, serif"
           >
             {name.replace("Core ", "")}
@@ -114,7 +114,7 @@ export function ProductBottle({
               textAnchor="middle"
               fontSize="6.5"
               letterSpacing="0.5"
-              fill="#8A867C"
+              fill="#6C6F63"
               fontFamily="system-ui, sans-serif"
             >
               {tagline.toUpperCase()}
@@ -127,7 +127,7 @@ export function ProductBottle({
             textAnchor="middle"
             fontSize="6"
             letterSpacing="1"
-            fill="#8A867C"
+            fill="#6C6F63"
             fontFamily="system-ui, sans-serif"
           >
             DIETARY SUPPLEMENT

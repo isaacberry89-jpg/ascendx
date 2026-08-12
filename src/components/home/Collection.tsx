@@ -43,7 +43,7 @@ function PinnedTrack() {
   const bg = useTransform(
     scrollYProgress,
     [0, 0.5, 1],
-    ["#F7F4EE", "#F1ECE2", "#F7F4EE"]
+    ["#F5F1E8", "#EFE9DC", "#F5F1E8"]
   );
 
   return (

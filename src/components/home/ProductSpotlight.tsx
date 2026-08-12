@@ -40,7 +40,7 @@ export function ProductSpotlight() {
       ref={ref}
       className="relative overflow-hidden py-24 lg:py-32"
       style={{
-        background: `linear-gradient(180deg, #F7F4EE, ${product.accent}12, #F7F4EE)`,
+        background: `linear-gradient(180deg, #F5F1E8, ${product.accent}12, #F5F1E8)`,
       }}
       aria-label={`Product spotlight: ${product.name}`}
     >
@@ -121,7 +121,7 @@ export function ProductSpotlight() {
                 <li key={benefit} className="flex items-start gap-3 text-charcoal">
                   <span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-ember/15">
                     <svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden>
-                      <path d="M5 12.5l4 4L19 7" stroke="#C6743B" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M5 12.5l4 4L19 7" stroke="#1C6B5B" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                   </span>
                   <span className="text-[0.98rem]">{benefit}</span>

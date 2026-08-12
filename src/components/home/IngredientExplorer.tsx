@@ -73,7 +73,7 @@ export function IngredientExplorer() {
                   width: 92,
                   height: 92,
                   background: isActive ? product.accent : "#FFFFFF",
-                  color: isActive ? "#F7F4EE" : "#16161A",
+                  color: isActive ? "#F5F1E8" : "#0E2823",
                 }}
                 animate={reduce ? {} : { y: isActive ? 0 : [0, -5, 0] }}
                 transition={{ duration: 3 + i, repeat: Infinity, ease: "easeInOut" }}

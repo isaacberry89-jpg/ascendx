@@ -55,9 +55,9 @@ export function Footer() {
           <div className="lg:col-span-4">
             <div className="flex items-center gap-2.5">
               <svg width="40" height="40" viewBox="0 0 40 40" aria-hidden>
-                <circle cx="20" cy="20" r="19" fill="#1F1F24" />
-                <circle cx="20" cy="20" r="12" fill="none" stroke="#C6743B" strokeWidth="2" />
-                <circle cx="20" cy="20" r="5" fill="#C6743B" />
+                <circle cx="20" cy="20" r="19" fill="#143A31" />
+                <circle cx="20" cy="20" r="12" fill="none" stroke="#2F8D77" strokeWidth="2" />
+                <circle cx="20" cy="20" r="5" fill="#BE9A3A" />
               </svg>
               <div className="font-display leading-none">
                 <div className="text-lg font-semibold">TOTAL CORE</div>

@@ -81,7 +81,7 @@ export function Reviews() {
                     <span className="inline-flex items-center gap-1 text-sage">
                       <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
                         <path d="M12 2l2.4 1.8 3-.2 1 2.8 2.6 1.5-1 2.8 1 2.8-2.6 1.5-1 2.8-3-.2L12 22l-2.4-1.8-3 .2-1-2.8L3 14.3l1-2.8-1-2.8 2.6-1.5 1-2.8 3 .2z" />
-                        <path d="M8.5 12l2.2 2.2 4.3-4.3" stroke="#F7F4EE" strokeWidth="1.6" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+                        <path d="M8.5 12l2.2 2.2 4.3-4.3" stroke="#F5F1E8" strokeWidth="1.6" fill="none" strokeLinecap="round" strokeLinejoin="round" />
                       </svg>
                       Verified Buyer
                     </span>

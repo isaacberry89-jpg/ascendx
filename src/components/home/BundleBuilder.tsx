@@ -47,7 +47,7 @@ export function BundleBuilder() {
         className="overflow-hidden rounded-[2rem] p-8 sm:p-12 lg:p-16"
         style={{
           background:
-            "linear-gradient(155deg, #16161A, #1F1F24 60%, #2A2A30)",
+            "linear-gradient(155deg, #0E2823, #143A31 60%, #1E4A3E)",
         }}
       >
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:items-center">

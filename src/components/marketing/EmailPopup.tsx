@@ -90,7 +90,7 @@ export function EmailPopup() {
               className="h-28"
               style={{
                 background:
-                  "radial-gradient(120% 140% at 30% 0%, #C6743B, #9E5324 60%, #16161A)",
+                  "radial-gradient(120% 140% at 30% 0%, #2F8D77, #124E42 55%, #0E2823)",
               }}
             />
             <div className="px-8 pb-8 pt-6 text-center">

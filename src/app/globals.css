@@ -29,7 +29,7 @@
 
   /* Visible, high-contrast focus states for accessibility */
   :focus-visible {
-    outline: 3px solid #c6743b;
+    outline: 3px solid #1c6b5b;
     outline-offset: 2px;
     border-radius: 4px;
   }
@@ -61,7 +61,7 @@
   }
 
   .gradient-text {
-    background: linear-gradient(120deg, #c6743b, #b99a5b 55%, #4c6b5b);
+    background: linear-gradient(120deg, #1c6b5b, #be9a3a 55%, #2b6e74);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;

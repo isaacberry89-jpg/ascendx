@@ -15,7 +15,7 @@ export const articles: Article[] = [
     excerpt:
       "A practical, no-hype look at daily protein targets for different goals, ages, and activity levels.",
     readTime: "6 min read",
-    accent: "#C6743B",
+    accent: "#B8873B",
   },
   {
     slug: "building-a-nutrition-foundation",
@@ -24,7 +24,7 @@ export const articles: Article[] = [
     excerpt:
       "Forget crash diets. Here's how to build sustainable habits that support your body for the long run.",
     readTime: "8 min read",
-    accent: "#4C6B5B",
+    accent: "#1F6B57",
   },
   {
     slug: "the-science-of-recovery",
@@ -33,7 +33,7 @@ export const articles: Article[] = [
     excerpt:
       "Progress happens between workouts. Understand how sleep, protein, and hydration drive real recovery.",
     readTime: "7 min read",
-    accent: "#6A7B8C",
+    accent: "#2B6E74",
   },
   {
     slug: "weight-management-without-the-gimmicks",
@@ -42,7 +42,7 @@ export const articles: Article[] = [
     excerpt:
       "An honest guide to body composition — what actually matters, and what to ignore.",
     readTime: "9 min read",
-    accent: "#9E5324",
+    accent: "#A6472A",
   },
   {
     slug: "staying-strong-after-50",
@@ -51,7 +51,7 @@ export const articles: Article[] = [
     excerpt:
       "Protecting muscle, bone, and energy as you age is simpler than you think. Start with these fundamentals.",
     readTime: "6 min read",
-    accent: "#B99A5B",
+    accent: "#B07A55",
   },
   {
     slug: "reading-a-supplement-label",
@@ -60,6 +60,6 @@ export const articles: Article[] = [
     excerpt:
       "Proprietary blends, fillers, and dosing — learn to spot quality and avoid marketing traps.",
     readTime: "5 min read",
-    accent: "#7E6B8F",
+    accent: "#5E4A78",
   },
 ];

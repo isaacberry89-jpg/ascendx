@@ -42,7 +42,7 @@ export function Hero() {
         className="pointer-events-none absolute inset-0"
         style={{
           background:
-            "radial-gradient(80% 60% at 70% 10%, rgba(198,116,59,0.14), transparent 55%), radial-gradient(60% 50% at 10% 90%, rgba(76,107,91,0.12), transparent 60%), #F7F4EE",
+            "radial-gradient(80% 60% at 70% 10%, rgba(28,107,91,0.16), transparent 55%), radial-gradient(60% 50% at 10% 90%, rgba(190,154,58,0.14), transparent 60%), #F5F1E8",
         }}
         aria-hidden
       />
@@ -226,10 +226,10 @@ function RevealWord({ children, delay }: { children: string; delay: number }) {
 function CheckIcon() {
   return (
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden className="shrink-0">
-      <circle cx="12" cy="12" r="10" fill="#4C6B5B" opacity="0.14" />
+      <circle cx="12" cy="12" r="10" fill="#4F8A6E" opacity="0.16" />
       <path
         d="M8 12.5l2.5 2.5L16 9"
-        stroke="#4C6B5B"
+        stroke="#3F7B60"
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
